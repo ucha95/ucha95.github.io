@@ -18,7 +18,7 @@ hr{
 	    font-size: 15px;
         color: #3f3f3f;
         text-transform: uppercase;
-        margin-left: 15px;
+        margin-left: 25px;
 	
 }
 .free{
@@ -27,7 +27,7 @@ hr{
         border: 1px solid;
         padding: 5px 11px;
         color: #00c9b7;
-        margin-left: 15px;
+        margin-left: 50px;
 }
 .free a{
 	color: #00c9b7;
