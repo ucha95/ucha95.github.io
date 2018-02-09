@@ -13,7 +13,7 @@
 				<a href="index.html"><img src="image/logoo.jpg"></a>
 			</div>
 			<div class="block flex">
-				<nav class="navigation flex">
+				<nav class="navigation flex" id="navigation">
 					<ul class="flex">
 						<li><a href="#">home</a></li>
 						<li><a href="#">about</a></li>
@@ -26,9 +26,23 @@
 					<a href="#">sing up free</a>
 				</div>
             </div>
+            <div class="menu" id="menu2">
+            	<span class="menu1"></span>
+            	<span class="menu1"></span>
+            	<span class="menu1"></span>
+            </div>
 		</div>
 	</header>
 	<hr size="3px" color="0096ff">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$("#menu2").on("click", function(){
+		$("#menu2").toggleClass("active");
+        $("#navigation").toggleClass("active");
+		})
+
+		
+	</script>
  
 </body>
 </html>
