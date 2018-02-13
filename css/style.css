@@ -112,11 +112,11 @@ hr{
 	.banner img{
 		width: 100%
 	}
-
-}
-.banner.active{
+	.banner.active{
 	padding-top: 100px;
 }
+
+
 .banner img{
 	width: 100%;
 	position: relative;
