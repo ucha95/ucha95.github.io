@@ -114,6 +114,9 @@ hr{
 	}
 
 }
+.banner.active{
+	padding-top: 100px;
+}
 .banner img{
 	width: 100%;
 	position: relative;
