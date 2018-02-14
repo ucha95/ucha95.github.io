@@ -90,7 +90,7 @@ hr{
 	}
 	.navigation.active{
 		top:130px;
-		left: 89%;
+		left: 50%;
 
 	}
 	.navigation ul{
@@ -110,12 +110,13 @@ hr{
 		padding: 0 20px;
 	}
 	.banner img{
-		width: 100%
+		width: 100%;
+		margin:0 auto;
 	}
 	.banner.active{
 	padding-top: 100px;
 }
-
+}
 
 .banner img{
 	width: 100%;
