@@ -89,15 +89,15 @@ hr{
 		
 	}
 	.navigation.active{
-		top:130px;
-		left: 50%;
+		top:160px;
+		left: 30%;
 
 	}
 	.navigation ul{
 		justify-content: center;
 		align-items: center;
 		flex-wrap: wrap;
-		flex-direction: column;
+		
 		
 	}
 	.navigation ul li{
