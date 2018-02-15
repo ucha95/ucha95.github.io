@@ -75,53 +75,6 @@ hr{
 	top:50%;
 	left:50%;
 }
-@media (max-width: 1024px){
-	.menu{
-		display: block;
-	}
-	.navigation{
-		position: fixed;
-		width:100%;
-		
-		top:-150%;
-		right:0%;
-		transition: top .3s linear;
-		
-	}
-	.navigation.active{
-		top:160px;
-		left: 30%;
-
-	}
-	.navigation ul{
-		justify-content: center;
-		align-items: center;
-		flex-wrap: wrap;
-		
-		
-	}
-	.navigation ul li{
-		display: block;
-	}
-	.free{
-		margin:0 auto;
-	}
-	.header{
-		padding: 0 20px;
-	}
-	.banner{
-		position: relative;
-	}
-	.banner img{
-		width: 100%;
-		margin:0 auto;
-	}
-	.banner.active{
-	padding-top: 100px;
-}
-   
-}
-
 .banner img{
 	width: 100%;
 	position: relative;
@@ -168,4 +121,69 @@ hr{
 .paragrap3{
     font-size: 20px;
     color: #ffffff
+}
+@media (max-width: 1024px){
+	.menu{
+		display: block;
+	}
+	.navigation{
+		position: fixed;
+		width:100%;
+		
+		top:-150%;
+		right:0%;
+		transition: top .3s linear;
+		
+	}
+	.navigation.active{
+		top:160px;
+		left: 30%;
+
+	}
+	.navigation ul{
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+		
+		
+	}
+	.navigation ul li{
+		display: block;
+	}
+	.free{
+		margin:0 auto;
+	}
+	.header{
+		padding: 0 20px;
+	}
+	.banner{
+		position: relative;
+	}
+	.banner img{
+		width: 100%;
+		margin:0 auto;
+	}
+	.banner.active{
+	padding-top: 100px;
+}
+
+	.banner .container { 
+    display: inline;
+    position: absolute;
+    top: 44px;
+    left: 20px;
+    width: 500px;
+}
+.box1 {
+    width: 80%;
+    background-color: #ffffff;
+    left: 11%;
+    position: absolute;
+    top: 84%;
+    height: 60px;
+}
+
+.box1 p {
+    padding: 18px 220px;
+}
 }
