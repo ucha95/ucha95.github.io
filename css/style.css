@@ -147,11 +147,11 @@ hr{
 	position: relative;
 }
 .banner .container{
-	display: inline;
-	position: absolute;
-	top: 180px;
-	left: 20px;
-	width: 500px;
+    display: inline;
+    position: absolute;
+    top: 180px;
+    left: 98px;
+    width: 500px;
     
 }
 
@@ -162,13 +162,13 @@ hr{
 .box1{
     width: 80%;
     background-color: #ffffff;
-    left: 90px;
+    left: 154px;
     position: absolute;
-    top: 426px;
+    top: 520px;
     height: 60px;
 }
 .box1 p{
-	    padding: 25px 222px;
+	    padding: 25px 377px;
 }
 .container .paragrap span{
 	color: #f08200;
