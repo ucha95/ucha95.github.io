@@ -109,6 +109,9 @@ hr{
 	.header{
 		padding: 0 20px;
 	}
+	.banner{
+		position: relative;
+	}
 	.banner img{
 		width: 100%;
 		margin:0 auto;
@@ -116,30 +119,7 @@ hr{
 	.banner.active{
 	padding-top: 100px;
 }
-   .banner .container{
-	display: inline;
-	position: absolute;
-	top: 180px;
-	left: 20px;
-	width: 500px;
-    
-}
-
-.banner .container img{
-
-	width: 140px;
-}
-.box1{
-    width: 80%;
-    background-color: #ffffff;
-    left: 90px;
-    position: absolute;
-    top: 426px;
-    height: 60px;
-}
-.box1 p{
-	    padding: 25px 222px;
-}
+   
 }
 
 .banner img{
