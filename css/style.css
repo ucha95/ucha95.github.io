@@ -101,7 +101,8 @@ hr{
     height: 60px;
 }
 .box1 p{
-	    padding: 25px 377px;
+	   text-align: center;
+       line-height: 55px;
 }
 .container .paragrap span{
 	color: #f08200;
@@ -184,7 +185,8 @@ hr{
 }
 
 .box1 p {
-    padding: 18px 220px;
+       text-align: center;
+       line-height: 55px;
 }
 .banner .container.active {
     display: inline;
