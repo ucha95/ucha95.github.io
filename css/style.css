@@ -123,6 +123,30 @@ hr{
     font-size: 20px;
     color: #ffffff
 }
+.socialicon{
+	width: 100%;
+	display: flex;
+}
+.socialicon .icons{
+	width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 11.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.icons p{
+	margin-top: 10px;
+	color: #2e2e2e;
+}
+.icons p:hover{
+	color: #0096ff;
+	cursor: pointer;
+}
+.icons div{
+	text-align: center;
+}
 @media (max-width: 1024px){
 	.menu{
 		display: block;
