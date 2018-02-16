@@ -147,6 +147,60 @@ hr{
 .icons div{
 	text-align: center;
 }
+.mobille{
+	width: 100%;
+    height: 680px;
+    background-color: #0096ff;
+}
+.features{
+	width: 80%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    background: #ffffff;
+    margin-left: 11.5%;
+}
+.features a{
+	border: 1px solid #0096ff;
+    padding: 1% 1%;
+    color: #0096ff;
+}
+.videocalls{
+	width: 40%;
+    padding-top: 9%;
+    padding-left: 10%;
+}
+.imagemobil{
+	    margin-top: 5%;
+	    margin-left: 8%;
+}
+.pro1{
+	font-size: 20px;
+    color: #ffffff;
+    padding-bottom: 8%
+}
+.pro{
+	font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 6%;
+}
+.smallpro{
+	font-size: 18px;
+    color: #ffffff;
+    padding-bottom: 9%;
+}
+.forfree{
+	display: inline;
+    padding: 2% 2%;
+    background-color: #ffffff;
+}
+.forfree a{
+	text-transform: uppercase;
+    color: #0096ff;
+    font-size: 16px;
+    font-family: "myriadpro";
+}
+
 @media (max-width: 1024px){
 	.menu{
 		display: block;
