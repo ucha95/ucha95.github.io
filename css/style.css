@@ -8,6 +8,36 @@
 .center{
 	align-items: center;
 }
+.hover:hover{
+	color: #33abff;
+}
+.color{
+	color: #4f4f4f;
+}
+.center1{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+.size{
+	font-size: 15px;
+}
+.size2{
+	font-size: 20px;
+}
+.size3{
+	font-size: 30px;
+}
+.cursor{
+	cursor: pointer;
+}
+.margin-top{
+	margin-top: 11%
+}
+.margin-bottom{
+	margin-bottom: 7%
+}
 hr{
 	margin: 0
 }
@@ -203,7 +233,21 @@ hr{
     font-size: 16px;
     font-family: "myriadpro";
 }
+.apk{
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.apk1{
+	margin-bottom: 1%;
+}
+.apk2{
+	margin-top: 1%;
+}
 .apllymobile{
+	align-items: center;
+}
+.apllymobile .container{
+	justify-content: space-around;
 	align-items: center;
 }
 
