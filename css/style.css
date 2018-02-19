@@ -5,6 +5,9 @@
 .flex {
 	display: flex;
 }
+.center{
+	align-items: center;
+}
 hr{
 	margin: 0
 }
@@ -199,6 +202,9 @@ hr{
     color: #0096ff;
     font-size: 16px;
     font-family: "myriadpro";
+}
+.apllymobile{
+	align-items: center;
 }
 
 @media (max-width: 1024px){
