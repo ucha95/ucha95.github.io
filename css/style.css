@@ -316,6 +316,9 @@ hr{
 .shots2{
 	justify-content: space-between;
 }
+.smart{
+	color: #747474;
+}
 @media (max-width: 1024px){
 	.menu{
 		display: block;
