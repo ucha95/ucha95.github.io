@@ -319,6 +319,37 @@ hr{
 .smart{
 	color: #747474;
 }
+.man{
+	background-color: #0096ff;
+	margin-top: 60px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.man1{
+    display: flex;
+    align-items: center;
+    line-height: 17px;
+}
+.man1 img{
+	height: 60%;
+}
+.man11{
+	margin-left: 30px;
+    color: #ffffff
+
+}
+.man111{
+	font-size: 25px;
+}
+.man11:last-child{
+	font-size: 10px;
+}
+.man2{
+	justify-content: space-around;
+}
+.man3{
+	width: 100px;
+}
 @media (max-width: 1024px){
 	.menu{
 		display: block;
