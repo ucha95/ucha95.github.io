@@ -436,6 +436,15 @@ hr{
 .shots2{
 	width: 100%;
 }
+.man{
+	width:100%;
+}
+.man2{
+	width:100%;
+}
+.smart{
+	display: none;
+}
 body{
-	width: 110%;
+	width: 100%;
 }
