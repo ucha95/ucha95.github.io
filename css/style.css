@@ -111,16 +111,19 @@ hr{
 	top:50%;
 	left:50%;
 }
+.banner{
+	position: relative;
+}
 .banner img{
 	width: 100%;
 	position: relative;
 }
 .banner .container{
-    display: inline;
-    position: absolute;
-    top: 180px;
-    left: 98px;
-    width: 500px;
+        display: inline;
+        position: absolute;
+        top: 10%;
+        left: 7%;
+        width: 500px;
     
 }
 
@@ -131,9 +134,9 @@ hr{
 .box1{
     width: 80%;
     background-color: #ffffff;
-    left: 154px;
+    left: 11.5%;
     position: absolute;
-    top: 520px;
+    bottom:0;
     height: 60px;
 }
 .box1 p{
@@ -329,6 +332,7 @@ hr{
     display: flex;
     align-items: center;
     line-height: 17px;
+    
 }
 .man1 img{
 	height: 60%;
@@ -358,12 +362,12 @@ hr{
 	width: 100%;
 	position: relative;
 }
-.mail2{
-	position: absolute;
-	top: 40px;
+.mail2 {
+    position: absolute;
+    top: 40px;
     align-items: center;
     text-align: center;
-    left: 20%;
+    width: 100%;
     color: #cccccc;
 }
 .mail1{
@@ -411,6 +415,7 @@ input{
     margin-left: 20px;
     padding-left: 10px;
     margin-bottom: 30px;
+    color: #ffffff;
 }
 
 textarea{
@@ -421,6 +426,7 @@ textarea{
     height: 90px;
     margin-left: 20px;
     padding-left: 10px;
+    color: #ffffff;
 
 
 }
@@ -443,6 +449,7 @@ address{
     color: #e6e6e6;
     font-size: 15px;
     padding-left: 7.5%
+
 
 }
 .footer{
@@ -571,4 +578,25 @@ address{
 }
 body{
 	width: 100%;
+}
+.socialicon1 {
+    width: 35%;
+    height: 70%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 7%;
+    left: 8%;
+    }
+    .socialicon2 {
+    width: 35%;
+    height: 70%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    bottom: 7%;
+    right: 8%;
+}
+.footer{
+	margin-top: -1%;
 }
